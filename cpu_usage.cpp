@@ -1,5 +1,6 @@
 // cpu_usage.cpp
 
+#include "system_monitor.h"
 #include <fstream>
 #include <sstream>
 #include <string>
