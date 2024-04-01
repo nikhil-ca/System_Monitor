@@ -1,7 +1,10 @@
-#ifndef SYSTEM_MONITOR.H
-#define SYSTEM_MONITOR.H
+#ifndef SYSTEM_MONITOR_H
+#define SYSTEM_MONITOR_H
 
-double get_cpu_usage();
-double get_memory_usage();
+class SystemMonitor {
+public:
+	double get_cpu_usage();
+	double get_memory_usage();
+};
 
 #endif
